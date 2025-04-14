@@ -1,6 +1,3 @@
-[build-system]
-requires = []
-build-backend = ""
 
 [project]
 name = "photo-manager"
@@ -12,7 +9,9 @@ license = "MIT"
 license-files = []
 keywords = []
 classifiers = []
-dependencies = []
+dependencies = [
+    "toga>=0.3.1",
+]
 dynamic = []
 [[project.authors]]
 name = "Austin Yu"
